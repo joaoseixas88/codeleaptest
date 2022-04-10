@@ -60,10 +60,15 @@ export function Main(){
         }
 
         await api.post("/",newPost)
-        dispatch(getData())
         setContent('')
         setTitle('')
+        dispatch(getData())
+        
     }
+
+    useEffect(() => {
+        
+    },[posts])
 
     return(        
             <div className='content'>
@@ -92,7 +97,7 @@ export function Main(){
                             ></textarea>
                         </label>
                         <div className='btnDiv'>
-                            <Button 
+                            <Button
                                 isActive={isActive}                                                       
                                 title='CREATE'
                                 type="submit"

@@ -15,6 +15,8 @@ const reducer = (state = initialState, action: any) => {
             return state = newState
         case actionTypes.LOGOUT:
             return state = ''
+        case actionTypes.LOGIN_FAILED:
+            return state = ''
         default: 
             return state
     }
