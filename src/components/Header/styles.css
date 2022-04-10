@@ -1,0 +1,37 @@
+
+
+
+.headerStyle{
+    display: flex;
+    background-color: var(--black);
+    align-items: center;
+    justify-content: space-between;    
+    width: 100%;
+    padding: 1rem 0;
+
+
+}
+
+.title{
+    color: var(--shape);
+    margin-left: 3rem;
+}
+.icon{
+    cursor: pointer;
+    
+}
+
+.buttonsDiv{
+    display: flex;
+    margin-right: 3rem ;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#black{
+    background-color: var(--black);
+}
+
+#blue{
+    background-color: var(--blue);
+}

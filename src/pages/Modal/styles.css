@@ -1,0 +1,33 @@
+
+form{
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+input, label, textarea{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+        
+}
+input, textarea{
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    border-color: var(--black);
+    padding:  0.2rem;
+}
+#postContent{
+    height: 20vh;
+    resize: none;
+    flex-wrap: wrap;
+}
+
+.btnDiv{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-end;
+}
+

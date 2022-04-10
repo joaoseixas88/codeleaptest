@@ -1,0 +1,32 @@
+.bgDiv{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+
+.loginDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;    
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+
+
+.inputText{
+    padding: 0.2rem;
+}
+
+.buttonDiv{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-end;
+}
+

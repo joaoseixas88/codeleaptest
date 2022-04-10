@@ -1,0 +1,37 @@
+button{
+    padding: 0.3rem 1rem;
+    color: var(--shape);
+    border: none;
+    border-radius: 0.1rem;
+    
+}
+
+.black:hover {background-color: --var(--light-dark)}
+
+.black:active {
+  background-color: var(--light-dark);
+  box-shadow: 0 5px #444;
+  transform: translateY(4px);
+}
+
+.black{
+    background-color: var(--black);
+}
+
+.blue{
+    background-color: var(--blue);
+}
+
+.blue:hover {background-color: --var(--light-blue)}
+
+.blue:active {
+  background-color: var(--light-blue);
+  box-shadow: 0 5px #556;
+  transform: translateY(4px);
+}
+
+.gray{
+  background-color: var(--light-dark);
+  border: 1px solid var(gray);
+  cursor: auto
+}

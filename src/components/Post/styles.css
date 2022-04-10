@@ -1,0 +1,24 @@
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 100%;
+    min-height: 300px;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+#userDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    margin: 0.5rem 3rem;
+    color: var(--gray);
+}
+
+p{
+    margin: 1rem 3rem;
+}

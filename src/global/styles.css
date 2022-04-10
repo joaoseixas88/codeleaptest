@@ -1,0 +1,66 @@
+:root{
+  --background: #DDDDDD;
+  --black: #000;
+  --light-dark: rgb(53, 51, 51); 
+  --shape: #FFF;
+  --blue: rgb(6, 83, 172);
+  --light-blue: rgb(117, 170, 231);
+  --gray: #777777
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+body {  
+  background-color: var(--background);
+}
+
+button {
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  width: 100%;  
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+.react-modal-overlay{
+  background: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-modal-content{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  position: relative;
+  width: 63%;
+  padding: 1rem;
+  background-color: #FFF;
+}
+
+.delete-react-modal-content{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 45%;
+  padding: 1rem;
+  background-color: #FFF;
+}

@@ -1,0 +1,10 @@
+.btnsDiv{
+    display: flex;
+    justify-content: flex-end;   
+    gap: 1rem; 
+    margin-right: 1rem;
+}
+
+.buttons{
+    background-color: var(--light-dark);
+}
